@@ -1,0 +1,15 @@
+@media (max-width: 600px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: black;
+  }
+
+  .nav-links.show {
+    display: block;
+  }
+
+  .burger {
+    display: block;
+  }
+}
